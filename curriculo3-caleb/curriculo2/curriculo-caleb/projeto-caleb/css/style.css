@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 40px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #202120, #90aeaf);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #232324;
+    color: #edebeb;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 200%;
+    max-width: 1950px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    margin-right: auto;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.curriculo {
+    background-color: #f6f7fa;
+    width: 450px;
+    max-width: 100%;
+    padding: 25px;
+    border-radius: 17px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    border: 2px solid #570a6a;
+}
+
+h1, .curriculo > p:first-of-type {
+    text-align: center;
+}
+
+h1, h3 {
+    color: #000000;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+hr {
+    margin-top: 20px;
+    border: 1px solid #dddddd;
+}
+
+[contenteditable="true"] {
+    background-color: #95951f;
+}
+
+.formulario {
+    width: 450px;
+    max-width: 100%;
+    padding: 30px;
+    background-color: white;
+    border-radius: 17px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.formulario input,
+.formulario textarea {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-family: A
+}

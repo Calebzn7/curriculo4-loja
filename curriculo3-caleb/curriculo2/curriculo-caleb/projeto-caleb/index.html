@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="java/curriculo.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h2>𝑀𝑒𝑢 𝐶𝑢𝑟𝑟𝑖𝑐𝑢𝑙𝑜</h2>
+        <button id="editar">Editar</button>
+        <button id="sair">Sair</button>
+    </header>
+
+    <div class="curriculo">
+
+        <img src="img/IMG_7114.jpeg" alt="Minha foto" class="foto">
+
+        <h1 id ="nome"contenteditable="false">𝑴𝒂𝒕𝒉𝒆𝒖𝒔 𝑪𝒂𝒍𝒆𝒃 𝑩𝒐𝒓𝒈𝒆𝒔 𝑺𝒊𝒍𝒗𝒂</h1>
+        <p id="perfil curso"></p>Estudante do Ensino Médio</p>
+
+        <hr>
+
+        <h3 id="informaçoes">𝑰𝒏𝒇𝒐𝒓𝒎𝒂ç𝒐𝒆𝒔 𝒑𝒆𝒔𝒔𝒐𝒂𝒊𝒔</h3>
+        <p>E-mail:<span id=perfilEmail: caleb070410@gmail.com></span></p>
+        <p contenteditable="false">Telefone: (62) 9195-6263</p>
+        <p>Cidade: <span id="perfilcidade">Anapolis - GO</span></p>
+        <h3>𝑶𝒃𝒋𝒆𝒕𝒊𝒗𝒐</h3>
+        <p contenteditable="false">
+            Busco uma oportunidade de trabalho
+            para adquirir conhecimento dentro da area
+        </p>
+
+        <h3>𝑬𝒔𝒄𝒐𝒍𝒂𝒓𝒊𝒅𝒂𝒅𝒆</h3>
+        <p contenteditable="false">Ensino Médio em progresso</p>
+
+        <h3>𝑯𝒂𝒃𝒊𝒍𝒊𝒅𝒂𝒅𝒆𝒔</h3>
+        <p contenteditable="false">
+            pontual, raciocinio rapido, trabalho em equipe e informática básica.
+        </p>
+
+    </div>
+
+    <div class="formulario" id="areaFormulario" >
+
+        <h2>Editar Perfil</h2>
+
+
+        <form id="formPerfil">
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required>
+
+    <label for="curso"> Curso:</label>
+    <input type="text" id="curso" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" required>
+
+    <label for="cidade"> Cidade:</label>
+    <input type="text" id="cidade" required>
+
+    <button type="submit">salvar perfil</button>
+
+    <button type="button" id="cancelar">
+    Cancelar
+    </button>
+
+   
+
+   </form>
+
+</div>
+
+</body>
+</html>
